@@ -5,6 +5,10 @@ public class Produto {
     private float descProduto;
     private float precProduto;
     private int idCategoria;
+    private int qtdMinEstoque;
+    private boolean ativoProduto;
+    private int idProduto;
+    private float descontoPromocao;
 
     public String getNomeProduto() {
         return nomeProduto;
@@ -69,10 +73,5 @@ public class Produto {
     public void setDescontoPromocao(float descontoPromocao) {
         this.descontoPromocao = descontoPromocao;
     }
-
-    private int qtdMinEstoque;
-    private boolean ativoProduto;
-    private int idProduto;
-    private float descontoPromocao;
 }
 
