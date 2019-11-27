@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33333D"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/eTEmailCliente"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="276dp"
+        android:ems="10"
+        android:hint="email@email.com.br"
+        android:inputType="textEmailAddress"
+        android:scrollbarSize="4dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etSenhaCliente"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="•••••••••"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eTEmailCliente" />
+
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:background="#009688"
+        android:text="Logar"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSenhaCliente"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        android:text="Cadastrar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogar"
+        app:layout_constraintVertical_bias="0.458" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
