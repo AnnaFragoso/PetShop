@@ -6,9 +6,9 @@ import retrofit2.http.Path;
 
 public interface ApiProduto {
 
-    @GET("/produto/{nomeProduto}")
+    @GET("/android/rest/produto/{nomeProduto}")
     Call<Produto> getNomeProduto(@Path("nomeProduto") String nomeProduto);
 
-    @GET("/produto/{idCategoria}")
+    @GET("/android/rest/produto/categoria/{idCategoria}")
     Call<Produto> getIdCategoria(@Path("idCategoria") int idCategoria);
 }

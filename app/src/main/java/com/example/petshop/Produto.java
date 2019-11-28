@@ -2,7 +2,7 @@ package com.example.petshop;
 
 public class Produto {
     private String nomeProduto;
-    private float descProduto;
+    private String descProduto;
     private float precProduto;
     private int idCategoria;
     private int qtdMinEstoque;
@@ -18,11 +18,11 @@ public class Produto {
         this.nomeProduto = nomeProduto;
     }
 
-    public float getDescProduto() {
+    public String getDescProduto() {
         return descProduto;
     }
 
-    public void setDescProduto(float descProduto) {
+    public void setDescProduto(String descProduto) {
         this.descProduto = descProduto;
     }
 
