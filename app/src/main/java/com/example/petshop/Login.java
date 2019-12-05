@@ -1,8 +1,8 @@
-package com.example.petshop
+package com.example.petshop;
 
 public class Login {
 
-    private int idCliente;
+    private int    idCliente;
     private String dtNascCliente;
     private String emailCliente;
     private String senhaCliente;
